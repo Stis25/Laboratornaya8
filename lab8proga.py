@@ -24,7 +24,7 @@ def main():
         print("2. View prototypes")
         print("3. Shallow clone a prototype")
         print("4. Deep clone a prototype")
-        print("5. Modify a prototype's data")
+        print("7. Modify a prototype's data")
         print("6. Exit")
         choice = input("Enter your choice: ")
 
@@ -57,7 +57,7 @@ def main():
             else:
                 print(f"No prototype found with the name '{name}'.")
 
-        elif choice == '5':
+        elif choice == '7':
             name = input("Enter the name of the prototype to modify: ")
             if name in prototypes:
                 new_data = input("Enter the new data for the prototype (as a comma-separated list): ")
